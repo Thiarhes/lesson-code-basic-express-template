@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI = process.env.MONGODB_URI || "mongodb://localhost/change-the-db-name";
+const MONGO_URI = process.env.MONGODB_URI || "mongodb://localhost/template-express";
 
 mongoose
   .connect(MONGO_URI, {
